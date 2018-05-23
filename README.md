@@ -1,6 +1,8 @@
 # flutter_app
 
-A new Flutter application.
+A new Flutter application. and its use Stateless Widget extends.
+and in this example create LISTVIEW and NAVIGATOR widget use to navigate Screen to Screen
+
 
 ## Getting Started
 
