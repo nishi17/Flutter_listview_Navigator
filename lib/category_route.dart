@@ -72,7 +72,7 @@ class CategoryRoute extends StatelessWidget {
         color: _baseColors[i],
         // ignore: undefined_getter
         iconLocation: Icons.cake  ,
-        units: _retrieveUnitList(_categoryName[i]),
+        units: _retrieveUnitList(name),
       ));
 
       listView = Container(
@@ -87,6 +87,7 @@ class CategoryRoute extends StatelessWidget {
           'Unit Conerter',
           style: TextStyle(color: Colors.black, fontSize: 30.0),
         ),
+        centerTitle: true,
       );
     }
     return Scaffold(
